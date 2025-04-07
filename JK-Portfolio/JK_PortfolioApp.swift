@@ -11,7 +11,7 @@ import SwiftUI
 struct JK_PortfolioApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            SplashScreen()
         }
     }
 }

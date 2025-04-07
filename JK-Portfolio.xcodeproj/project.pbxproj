@@ -11,6 +11,24 @@
 		EF06A6F82D1EDC11004E395E /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF06A6F72D1EDC11004E395E /* ContentView.swift */; };
 		EF06A6FA2D1EDC13004E395E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EF06A6F92D1EDC13004E395E /* Assets.xcassets */; };
 		EF06A6FD2D1EDC13004E395E /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EF06A6FC2D1EDC13004E395E /* Preview Assets.xcassets */; };
+		EF06A7082D1EE62D004E395E /* TypewriterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF06A7072D1EE62D004E395E /* TypewriterView.swift */; };
+		EF06A70A2D1F0609004E395E /* MailComposeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF06A7092D1F0609004E395E /* MailComposeViewController.swift */; };
+		EF06A70C2D23AF81004E395E /* DetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF06A70B2D23AF81004E395E /* DetailView.swift */; };
+		EF06A70F2D23BE35004E395E /* Color+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF06A70E2D23BE35004E395E /* Color+Extension.swift */; };
+		EF06A7112D23F129004E395E /* SkillsCardModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF06A7102D23F129004E395E /* SkillsCardModel.swift */; };
+		EF06A7132D23F16F004E395E /* SkillsProgressView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF06A7122D23F16F004E395E /* SkillsProgressView.swift */; };
+		EF06A7152D257B48004E395E /* WebView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF06A7142D257B48004E395E /* WebView.swift */; };
+		EF06A7172D257B89004E395E /* ResumeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF06A7162D257B89004E395E /* ResumeView.swift */; };
+		EF06A7192D257DB2004E395E /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF06A7182D257DB2004E395E /* Constants.swift */; };
+		EF76CB3E2D2D7BB6007A634C /* Lottie in Frameworks */ = {isa = PBXBuildFile; productRef = EF76CB3D2D2D7BB6007A634C /* Lottie */; };
+		EF76CB402D2D7BF0007A634C /* jk.json in Resources */ = {isa = PBXBuildFile; fileRef = EF76CB3F2D2D7BEF007A634C /* jk.json */; };
+		EF76CB422D2D7C6D007A634C /* SplashScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF76CB412D2D7C6D007A634C /* SplashScreen.swift */; };
+		EF76CB442D2D7F4B007A634C /* awards.json in Resources */ = {isa = PBXBuildFile; fileRef = EF76CB432D2D7F4B007A634C /* awards.json */; };
+		EF76CB492D2E79F9007A634C /* projects.json in Resources */ = {isa = PBXBuildFile; fileRef = EF76CB462D2E79F8007A634C /* projects.json */; };
+		EF76CB4A2D2E79F9007A634C /* experience.json in Resources */ = {isa = PBXBuildFile; fileRef = EF76CB472D2E79F9007A634C /* experience.json */; };
+		EF76CB4B2D2E79F9007A634C /* happy_clients.json in Resources */ = {isa = PBXBuildFile; fileRef = EF76CB482D2E79F9007A634C /* happy_clients.json */; };
+		EF76CB4D2D2E8643007A634C /* Expertise.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF76CB4C2D2E8643007A634C /* Expertise.swift */; };
+		EF8374F22D4D111100F9BC78 /* AllProjectsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF8374F12D4D111100F9BC78 /* AllProjectsView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +37,23 @@
 		EF06A6F72D1EDC11004E395E /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		EF06A6F92D1EDC13004E395E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		EF06A6FC2D1EDC13004E395E /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		EF06A7072D1EE62D004E395E /* TypewriterView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TypewriterView.swift; sourceTree = "<group>"; };
+		EF06A7092D1F0609004E395E /* MailComposeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MailComposeViewController.swift; sourceTree = "<group>"; };
+		EF06A70B2D23AF81004E395E /* DetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailView.swift; sourceTree = "<group>"; };
+		EF06A70E2D23BE35004E395E /* Color+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Color+Extension.swift"; sourceTree = "<group>"; };
+		EF06A7102D23F129004E395E /* SkillsCardModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SkillsCardModel.swift; sourceTree = "<group>"; };
+		EF06A7122D23F16F004E395E /* SkillsProgressView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SkillsProgressView.swift; sourceTree = "<group>"; };
+		EF06A7142D257B48004E395E /* WebView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebView.swift; sourceTree = "<group>"; };
+		EF06A7162D257B89004E395E /* ResumeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResumeView.swift; sourceTree = "<group>"; };
+		EF06A7182D257DB2004E395E /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		EF76CB3F2D2D7BEF007A634C /* jk.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = jk.json; sourceTree = "<group>"; };
+		EF76CB412D2D7C6D007A634C /* SplashScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplashScreen.swift; sourceTree = "<group>"; };
+		EF76CB432D2D7F4B007A634C /* awards.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = awards.json; sourceTree = "<group>"; };
+		EF76CB462D2E79F8007A634C /* projects.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = projects.json; sourceTree = "<group>"; };
+		EF76CB472D2E79F9007A634C /* experience.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = experience.json; sourceTree = "<group>"; };
+		EF76CB482D2E79F9007A634C /* happy_clients.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = happy_clients.json; sourceTree = "<group>"; };
+		EF76CB4C2D2E8643007A634C /* Expertise.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Expertise.swift; sourceTree = "<group>"; };
+		EF8374F12D4D111100F9BC78 /* AllProjectsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AllProjectsView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -26,6 +61,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EF76CB3E2D2D7BB6007A634C /* Lottie in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -51,8 +87,12 @@
 		EF06A6F42D1EDC11004E395E /* JK-Portfolio */ = {
 			isa = PBXGroup;
 			children = (
+				EF06A70D2D23BE1F004E395E /* Extensions */,
+				EF06A7052D1EE614004E395E /* Helpers */,
+				EF06A7042D1EE5FC004E395E /* Views */,
+				EF06A7032D1EE5F2004E395E /* Model */,
 				EF06A6F52D1EDC11004E395E /* JK_PortfolioApp.swift */,
-				EF06A6F72D1EDC11004E395E /* ContentView.swift */,
+				EF76CB452D2E79ED007A634C /* Resources */,
 				EF06A6F92D1EDC13004E395E /* Assets.xcassets */,
 				EF06A6FB2D1EDC13004E395E /* Preview Content */,
 			);
@@ -65,6 +105,67 @@
 				EF06A6FC2D1EDC13004E395E /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		EF06A7032D1EE5F2004E395E /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				EF06A7102D23F129004E395E /* SkillsCardModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		EF06A7042D1EE5FC004E395E /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				EF06A6F72D1EDC11004E395E /* ContentView.swift */,
+				EF06A70B2D23AF81004E395E /* DetailView.swift */,
+				EF06A7122D23F16F004E395E /* SkillsProgressView.swift */,
+				EF06A7162D257B89004E395E /* ResumeView.swift */,
+				EF76CB412D2D7C6D007A634C /* SplashScreen.swift */,
+				EF76CB4C2D2E8643007A634C /* Expertise.swift */,
+				EF8374F12D4D111100F9BC78 /* AllProjectsView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		EF06A7052D1EE614004E395E /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				EF06A7062D1EE61C004E395E /* UI */,
+				EF06A7092D1F0609004E395E /* MailComposeViewController.swift */,
+				EF06A7182D257DB2004E395E /* Constants.swift */,
+			);
+			path = Helpers;
+			sourceTree = "<group>";
+		};
+		EF06A7062D1EE61C004E395E /* UI */ = {
+			isa = PBXGroup;
+			children = (
+				EF06A7072D1EE62D004E395E /* TypewriterView.swift */,
+				EF06A7142D257B48004E395E /* WebView.swift */,
+			);
+			path = UI;
+			sourceTree = "<group>";
+		};
+		EF06A70D2D23BE1F004E395E /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				EF06A70E2D23BE35004E395E /* Color+Extension.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		EF76CB452D2E79ED007A634C /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				EF76CB472D2E79F9007A634C /* experience.json */,
+				EF76CB482D2E79F9007A634C /* happy_clients.json */,
+				EF76CB462D2E79F8007A634C /* projects.json */,
+				EF76CB432D2D7F4B007A634C /* awards.json */,
+				EF76CB3F2D2D7BEF007A634C /* jk.json */,
+			);
+			path = Resources;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -83,6 +184,9 @@
 			dependencies = (
 			);
 			name = "JK-Portfolio";
+			packageProductDependencies = (
+				EF76CB3D2D2D7BB6007A634C /* Lottie */,
+			);
 			productName = "JK-Portfolio";
 			productReference = EF06A6F22D1EDC11004E395E /* JK-Portfolio.app */;
 			productType = "com.apple.product-type.application";
@@ -111,6 +215,9 @@
 				Base,
 			);
 			mainGroup = EF06A6E92D1EDC11004E395E;
+			packageReferences = (
+				EF76CB3C2D2D7BB6007A634C /* XCRemoteSwiftPackageReference "lottie-spm" */,
+			);
 			productRefGroup = EF06A6F32D1EDC11004E395E /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -125,8 +232,13 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EF76CB402D2D7BF0007A634C /* jk.json in Resources */,
+				EF76CB442D2D7F4B007A634C /* awards.json in Resources */,
+				EF76CB492D2E79F9007A634C /* projects.json in Resources */,
 				EF06A6FD2D1EDC13004E395E /* Preview Assets.xcassets in Resources */,
 				EF06A6FA2D1EDC13004E395E /* Assets.xcassets in Resources */,
+				EF76CB4B2D2E79F9007A634C /* happy_clients.json in Resources */,
+				EF76CB4A2D2E79F9007A634C /* experience.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -137,8 +249,20 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EF76CB4D2D2E8643007A634C /* Expertise.swift in Sources */,
+				EF76CB422D2D7C6D007A634C /* SplashScreen.swift in Sources */,
 				EF06A6F82D1EDC11004E395E /* ContentView.swift in Sources */,
+				EF06A7192D257DB2004E395E /* Constants.swift in Sources */,
+				EF06A7112D23F129004E395E /* SkillsCardModel.swift in Sources */,
+				EF06A70F2D23BE35004E395E /* Color+Extension.swift in Sources */,
+				EF06A7082D1EE62D004E395E /* TypewriterView.swift in Sources */,
+				EF06A70A2D1F0609004E395E /* MailComposeViewController.swift in Sources */,
+				EF06A7132D23F16F004E395E /* SkillsProgressView.swift in Sources */,
+				EF06A7152D257B48004E395E /* WebView.swift in Sources */,
+				EF8374F22D4D111100F9BC78 /* AllProjectsView.swift in Sources */,
+				EF06A70C2D23AF81004E395E /* DetailView.swift in Sources */,
 				EF06A6F62D1EDC11004E395E /* JK_PortfolioApp.swift in Sources */,
+				EF06A7172D257B89004E395E /* ResumeView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -344,6 +468,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		EF76CB3C2D2D7BB6007A634C /* XCRemoteSwiftPackageReference "lottie-spm" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/airbnb/lottie-spm.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 4.5.1;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		EF76CB3D2D2D7BB6007A634C /* Lottie */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = EF76CB3C2D2D7BB6007A634C /* XCRemoteSwiftPackageReference "lottie-spm" */;
+			productName = Lottie;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = EF06A6EA2D1EDC11004E395E /* Project object */;
 }
