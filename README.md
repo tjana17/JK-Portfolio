@@ -1,7 +1,7 @@
 <h3>Portfolio App - SwiftUI</h3>
 <hr>
 
-Portfolio App - SwiftUI is a simple Personal Portfolio app with list of apps and achievements done by Janarthanan Kannan(Myself) using the lotte & SwiftUI animations.
+Portfolio App - SwiftUI is a simple Personal Portfolio app with list of apps and achievements done by Janarthanan Kannan(Myself) using the lottie & SwiftUI animations.
 <br/><br/><br/>
 <h3>Tech Used</h3>
 <hr>
@@ -10,7 +10,7 @@ Portfolio App - SwiftUI is a simple Personal Portfolio app with list of apps and
   <li>Swift 5</li>
   <li>SwiftUI</li>
   <li>PDF Viewer</li>
-  <li>Lotte & SwiftUI Animations</li>
+  <li>Lottie & SwiftUI Animations</li>
   <li>XCode 15</li>
 </ul>
 <br/><br/>
