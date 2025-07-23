@@ -20,7 +20,18 @@ struct AllProjectsView: View {
         ProjectsModel(name: "Cyber Gear", image: "cybergear", link: "https://apps.apple.com/in/app/myoja/id6451094009"),
         ProjectsModel(name: "Sahara Center", image: "sahara", link: "https://apps.apple.com/in/app/myoja/id6451094009"),
         ProjectsModel(name: "Canadian Specialist Hospital", image: "csh", link: "https://apps.apple.com/in/app/myoja/id6451094009"),
-        ProjectsModel(name: "Dubai City Guide", image: "dcg", link: "https://apps.apple.com/in/app/myoja/id6451094009")
+        ProjectsModel(name: "Dubai City Guide", image: "dcg", link: "https://apps.apple.com/in/app/myoja/id6451094009"),
+        ProjectsModel(name: "Clinic Booking", image: "clinic_booking_web", link: "https://github.com/tjana17/ClinicBooking"),
+        ProjectsModel(name: "News App", image: "news_app_web", link: "https://github.com/tjana17/News-App"),
+        ProjectsModel(name: "Weather App", image: "weather_web", link: "https://github.com/tjana17/WeatherApp-SwiftUI"),
+        ProjectsModel(name: "BMI Calculator", image: "bmi_calculator_web", link: "https://github.com/tjana17/BMI-Calculator"),
+        ProjectsModel(name: "Novitas Health Care", image: "novitas_web", link: "https://github.com/tjana17/Novitas"),
+        ProjectsModel(name: "Food Ordering App", image: "food_ordering_web", link: "https://github.com/tjana17/FoodOrdering"),
+        ProjectsModel(name: "Reminders", image: "reminders_web", link: "https://github.com/tjana17/Reminders"),
+        ProjectsModel(name: "Notes App", image: "notes_app_web", link: "https://github.com/tjana17/NotesApp"),
+        ProjectsModel(name: "Firebase Authentication", image: "firebase_signin_web", link: "https://github.com/tjana17/FirebaseSignIn"),
+        ProjectsModel(name: "Onboarding Screens", image: "onboarding_web", link: "https://github.com/tjana17/OnboardingScreens"),
+        ProjectsModel(name: "Charts App", image: "charts_swiftui", link: "https://github.com/tjana17/Charts-SwiftUI")
     ]
 
 
