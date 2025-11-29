@@ -15,8 +15,9 @@ struct SkillsCardModel {
     let color: Color
 }
 
-struct ProjectsModel {
-    let id = UUID()
+struct ProjectsModel: Identifiable, Codable {
+    // Stable id derived from fields so it’s consistent across app launches
+    var id: String { "\(name)|\(image)|\(link)" }
     let name: String
     let image: String
     let link: String

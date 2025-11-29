@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		B4E185B82EDB4834007DCD1E /* allprojects.json in Resources */ = {isa = PBXBuildFile; fileRef = B4E185B72EDB4834007DCD1E /* allprojects.json */; };
 		EF06A6F62D1EDC11004E395E /* JK_PortfolioApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF06A6F52D1EDC11004E395E /* JK_PortfolioApp.swift */; };
 		EF06A6F82D1EDC11004E395E /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF06A6F72D1EDC11004E395E /* ContentView.swift */; };
 		EF06A6FA2D1EDC13004E395E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EF06A6F92D1EDC13004E395E /* Assets.xcassets */; };
@@ -32,6 +33,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		B4E185B72EDB4834007DCD1E /* allprojects.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = allprojects.json; sourceTree = "<group>"; };
 		EF06A6F22D1EDC11004E395E /* JK-Portfolio.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "JK-Portfolio.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		EF06A6F52D1EDC11004E395E /* JK_PortfolioApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JK_PortfolioApp.swift; sourceTree = "<group>"; };
 		EF06A6F72D1EDC11004E395E /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -164,6 +166,7 @@
 				EF76CB462D2E79F8007A634C /* projects.json */,
 				EF76CB432D2D7F4B007A634C /* awards.json */,
 				EF76CB3F2D2D7BEF007A634C /* jk.json */,
+				B4E185B72EDB4834007DCD1E /* allprojects.json */,
 			);
 			path = Resources;
 			sourceTree = "<group>";
@@ -235,6 +238,7 @@
 				EF76CB402D2D7BF0007A634C /* jk.json in Resources */,
 				EF76CB442D2D7F4B007A634C /* awards.json in Resources */,
 				EF76CB492D2E79F9007A634C /* projects.json in Resources */,
+				B4E185B82EDB4834007DCD1E /* allprojects.json in Resources */,
 				EF06A6FD2D1EDC13004E395E /* Preview Assets.xcassets in Resources */,
 				EF06A6FA2D1EDC13004E395E /* Assets.xcassets in Resources */,
 				EF76CB4B2D2E79F9007A634C /* happy_clients.json in Resources */,
