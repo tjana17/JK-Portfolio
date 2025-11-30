@@ -21,4 +21,5 @@ struct ProjectsModel: Identifiable, Codable {
     let name: String
     let image: String
     let link: String
+    var category: String
 }

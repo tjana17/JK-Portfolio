@@ -22,18 +22,18 @@ struct DetailView: View {
         SkillsCardModel(name: "WordPress & Shopify", value: 70, icon: Image("WordPress"), color: Color(hex: "4B4B4B"))
     ]
     @State var projectCards = [
-        ProjectsModel(name: "CaddyTrack AI", image: "caddytrack", link: "https://apps.apple.com/us/app/caddytrack-ai/id6502741813"),
-        ProjectsModel(name: "MYOJA", image: "myoja", link: "https://apps.apple.com/in/app/myoja/id6451094009"),
-        ProjectsModel(name: "MyCitroën Connect", image: "citroen", link: "https://apps.apple.com/in/app/mycitroën-connect/id1613803195"),
-        ProjectsModel(name: "BEEZER GOLF", image: "beezer", link: "https://apps.apple.com/us/app/beezer-golf-golf-scorecard/id1474924288"),
-        ProjectsModel(name: "Store2K", image: "store2k", link: "https://www.store2k.com"),
-        ProjectsModel(name: "Moonshine", image: "moonshine", link: "https://apps.apple.com/in/app/myoja/id6451094009"),
-        ProjectsModel(name: "My Need Finder", image: "mnf", link: "https://apps.apple.com/in/app/myoja/id6451094009"),
-        ProjectsModel(name: "Dhamani1969", image: "dhamani", link: "https://apps.apple.com/in/app/myoja/id6451094009"),
-        ProjectsModel(name: "Cyber Gear", image: "cybergear", link: "https://apps.apple.com/in/app/myoja/id6451094009"),
-        ProjectsModel(name: "Sahara Center", image: "sahara", link: "https://apps.apple.com/in/app/myoja/id6451094009"),
-        ProjectsModel(name: "Canadian Specialist Hospital", image: "csh", link: "https://apps.apple.com/in/app/myoja/id6451094009"),
-        ProjectsModel(name: "Dubai City Guide", image: "dcg", link: "https://apps.apple.com/in/app/myoja/id6451094009")
+        ProjectsModel(name: "CaddyTrack AI", image: "caddytrack", link: "https://apps.apple.com/us/app/caddytrack-ai/id6502741813", category: "Mobile Apps"),
+        ProjectsModel(name: "MYOJA", image: "myoja", link: "https://apps.apple.com/in/app/myoja/id6451094009", category: "Mobile Apps"),
+        ProjectsModel(name: "MyCitroën Connect", image: "citroen", link: "https://apps.apple.com/in/app/mycitroën-connect/id1613803195", category: "Mobile Apps"),
+        ProjectsModel(name: "BEEZER GOLF", image: "beezer", link: "https://apps.apple.com/us/app/beezer-golf-golf-scorecard/id1474924288", category: "Mobile Apps"),
+        ProjectsModel(name: "Store2K", image: "store2k", link: "https://www.store2k.com", category: "Mobile Apps"),
+        ProjectsModel(name: "Moonshine", image: "moonshine", link: "https://apps.apple.com/in/app/myoja/id6451094009", category: "Mobile Apps"),
+        ProjectsModel(name: "My Need Finder", image: "mnf", link: "https://apps.apple.com/in/app/myoja/id6451094009", category: "Mobile Apps"),
+        ProjectsModel(name: "Dhamani1969", image: "dhamani", link: "https://apps.apple.com/in/app/myoja/id6451094009", category: "Mobile Apps"),
+        ProjectsModel(name: "Cyber Gear", image: "cybergear", link: "https://apps.apple.com/in/app/myoja/id6451094009", category: "Mobile Apps"),
+        ProjectsModel(name: "Sahara Center", image: "sahara", link: "https://apps.apple.com/in/app/myoja/id6451094009", category: "Mobile Apps"),
+        ProjectsModel(name: "Canadian Specialist Hospital", image: "csh", link: "https://apps.apple.com/in/app/myoja/id6451094009", category: "Mobile Apps"),
+        ProjectsModel(name: "Dubai City Guide", image: "dcg", link: "https://apps.apple.com/in/app/myoja/id6451094009", category: "Mobile Apps")
     ]
     var body: some View {
         NavigationStack {

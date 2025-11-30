@@ -8,26 +8,69 @@
 import SwiftUI
 
 struct AllProjectsView: View {
+
     @Environment(\.openURL) var openURL
 
-    @State private var appStorePrjects: [ProjectsModel] = []
+    @State private var allProjects: [ProjectsModel] = []
+    @State private var selectedCategory: String = "Mobile Apps"
+
+    private let categories = ["Mobile Apps", "Github Repos", "Web Development"]
+
+    var filteredProjects: [ProjectsModel] {
+        allProjects.filter { $0.category == selectedCategory }
+    }
 
     var body: some View {
         NavigationStack {
-            ScrollView(.vertical, showsIndicators: false) {
-                LazyVGrid(columns: [GridItem(.flexible(), spacing: 5), GridItem(.flexible(), spacing: 5)], spacing: 10) {
-                    ForEach(appStorePrjects.indices, id: \.self) { i in
-                        ProjectCardView(index: appStorePrjects[i]) {
-                            let link = appStorePrjects[i].link
-                            if let url = URL(string: link) {
-                                openURL(url)
-                            } else {
-                                print("Invalid URL: \(link)")
+
+            VStack(spacing: 20) {
+
+                // MARK: - CATEGORY TABS
+                ScrollView(.horizontal, showsIndicators: false) {
+                    HStack(spacing: 30) {
+                        ForEach(categories, id: \.self) { cat in
+                            VStack {
+                                Text(cat)
+                                    .font(.headline)
+                                    .foregroundColor(selectedCategory == cat ? .purple : .gray)
+                                    .onTapGesture {
+                                        withAnimation(.spring()) {
+                                            selectedCategory = cat
+                                        }
+                                    }
+
+                                Rectangle()
+                                    .fill(selectedCategory == cat ? Color.purple : Color.clear)
+                                    .frame(height: 3)
+                                    .frame(maxWidth: selectedCategory == cat ? 80 : 0)
+                                    .animation(.easeInOut, value: selectedCategory)
                             }
                         }
                     }
+                    .padding(.horizontal)
                 }
-                .padding()
+
+                // MARK: - PROJECT GRID
+                ScrollView {
+                    LazyVGrid(columns: [
+                        GridItem(.flexible(), spacing: 10),
+                        GridItem(.flexible(), spacing: 10)
+                    ], spacing: 15) {
+
+                        ForEach(filteredProjects.indices, id: \.self) { i in
+                            ProjectCardView(index: filteredProjects[i]) {
+                                let link = filteredProjects[i].link
+                                if let url = URL(string: link) {
+                                    openURL(url)
+                                } else {
+                                    print("Invalid URL:", link)
+                                }
+                            }
+                        }
+                    }
+                    .padding()
+                }
+
             }
             .navigationTitle("All Projects")
             .navigationBarTitleDisplayMode(.inline)
@@ -43,21 +86,18 @@ struct AllProjectsView: View {
             if let url = Bundle.main.url(forResource: "allprojects", withExtension: "json") {
                 let data = try Data(contentsOf: url)
                 let decoded = try JSONDecoder().decode([ProjectsModel].self, from: data)
-                appStorePrjects = decoded
+                allProjects = decoded
             } else {
-                print("allprojects.json not found in bundle")
+                print("allprojects.json not found")
             }
         } catch {
-            print("Failed to load allprojects.json: \(error)")
+            print("Failed to decode allprojects.json:", error)
         }
     }
 }
 
-#Preview {
-    AllProjectsView()
-}
-
 struct ProjectCardView: View {
+
     let index: ProjectsModel
     var onTap: (() -> Void)? = nil
 
@@ -75,7 +115,6 @@ struct ProjectCardView: View {
                         .lineLimit(2)
                         .multilineTextAlignment(.center)
                 }
-
             }
             .padding(10)
             .cornerRadius(10)
